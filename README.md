@@ -67,13 +67,15 @@ Lets go trough every argument and explain exactly what it does:
 > # __Bug fixes and features:__
 
 ## _known bugs:_
-- the percentage displayer needs to be waited ranuntil it refreshes to finish the program
+- ~~the percentage displayer needs to be waited until it refreshes to finish the program~~ make the percentage displayer work
 
 ## _possible features:_
 
 - make the program more portable, for example, just download the python script and run it
 
 - make it possible for the program to run without needing root, making it posible to be ran on un-rooted targets
+
+- faster scan times, specially on multiple subnetts
 
 - create a good documentation for the script and cofigure push requests so people can create a better code
 
@@ -82,7 +84,7 @@ Lets go trough every argument and explain exactly what it does:
 
 > # __Future development__
 
-This started as a side project and not something to actively maintain, i just made a pretty useful tool and i wanted to share it with the world and maybe help a couple people, im not gonna <!-- give you up, never gonna let you down --> be able to be online for a couple weeks as my school final exams are coming.
+This started as a side project and not something to actively maintain, i just made a pretty useful tool and i wanted to share it with the world and maybe help a couple people._I will try to work as hard as i can to fix the bugs you find and add the promised features, i never hosted a public git project as big as this before_. Im not gonna <!-- give you up, never gonna let you down --> be able to be online for a couple weeks as my school final exams are coming.
 
 I would love to hear your feedback at fva#1693 on discord, just send me a friend request and i will probably accept it!
 
