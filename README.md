@@ -25,11 +25,11 @@ And Scanz, in the other hand, is a better option when:
 > # __Installation:__
 You first need to install the packages using the requeriments.txt file:
 ```bash
-sudo pip3 install -r requeriments.txt
+sudo pip3 install -r requirements.txt
 ```
 And then you are ready to run the script.
 ```bash
-sudo python3 main.py --help
+sudo python3 scanz.py --help
 
 ---
 ---
