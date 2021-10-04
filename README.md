@@ -23,13 +23,11 @@ And Scanz, in the other hand, is a better option when:
 ---
 ---
 > # __Installation:__
-You first need to install the packages using the requeriments.txt file:
+The only thing you need to do is run the scan.sh file_name
+
 ```bash
-sudo pip3 install -r requirements.txt
+sudo ./scanz.sh
 ```
-And then you are ready to run the script.
-```bash
-sudo python3 scanz.py --help
 
 ---
 ---
@@ -37,7 +35,7 @@ sudo python3 scanz.py --help
 > # __Usage:__
 If you run the script without supplying any arguments, you will be promted to the help page:
 
-```#!/usr/bin/env bash
+```bash
 usage: scanz.py [-h] [--subnetting level] [--timeout seconds] [--output file_name] interface_name
 
 positional arguments:
@@ -71,9 +69,9 @@ Lets go trough every argument and explain exactly what it does:
 
 ## _possible features:_
 
-- make the program more portable, for example, just download the python script and run it
+- ~~make the program more portable, for example, just download the python script and run it~~ Done! 🎉
 
-- ~~make it possible for the program to run without needing root, making it posible to be ran on un-rooted targets~~ imposible by the way the scanner works
+- ~~make it possible for the program to run without needing root, making it posible to be ran on un-rooted targets~~ imposible by the nature of the scanner
 
 - faster scan times, specially on multiple subnetts
 
