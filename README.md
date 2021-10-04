@@ -23,13 +23,12 @@ And Scanz, in the other hand, is a better option when:
 ---
 ---
 > # __Installation:__
-You first need to install the packages using the requeriments.txt file:
+
+The only thing you need to do is run the .pyc file
+
 ```bash
-sudo pip3 install -r requirements.txt
+sudo python3 scanz_compiled.pyc
 ```
-And then you are ready to run the script.
-```bash
-sudo python3 scanz.py --help
 
 ---
 ---
@@ -71,9 +70,9 @@ Lets go trough every argument and explain exactly what it does:
 
 ## _possible features:_
 
-- make the program more portable, for example, just download the python script and run it
+- ~~make the program more portable, for example, just download the python script and run it~~ Done! 🎉
 
-- make it possible for the program to run without needing root, making it posible to be ran on un-rooted targets
+- ~~make it possible for the program to run without needing root, making it posible to be ran on un-rooted targets~~ imposible by the way the scanner works
 
 - faster scan times, specially on multiple subnetts
 
