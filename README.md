@@ -23,7 +23,7 @@ And Scanz, in the other hand, is a better option when:
 ---
 ---
 > # __Installation:__
-The only thing you need to do is run the scan.sh file_name
+The only thing you need to do is run the scan.sh file
 
 ```bash
 sudo ./scanz.sh
