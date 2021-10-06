@@ -23,10 +23,10 @@ And Scanz, in the other hand, is a better option when:
 ---
 ---
 > # __Installation:__
-The only thing you need to do is run the scan.sh file
+Download the correct build for your OS, unzip it, and run the runner.py
 
 ```bash
-sudo ./scanz.sh
+sudo python3 runner.py
 ```
 
 ---
@@ -76,6 +76,10 @@ Lets go trough every argument and explain exactly what it does:
 - faster scan times, specially on multiple subnetts
 
 - create a good documentation for the script and cofigure push requests so people can create a better code
+
+- make the scanner run on windows
+
+- let the scanner take an ip address instead of an interface name, especially on windows targets
 
 ---
 ---
